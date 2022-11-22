@@ -1,0 +1,44 @@
+html, body {    
+    font-family: Arial, 'Times New Roman', sans-serif;
+    font-size: 17px;
+    color: #333333;
+    
+    padding: 0;
+    margin: 0;
+    
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #783a85;
+    height: 50px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f2f2f2;
+    line-height: 50px;
+    padding: 0 16px;
+    display: block;
+    transition: background 0.4s ease-in-out;
+}
+
+header ul li a:hover {
+    background: #c28cf4;
+}
+
+
+
+
